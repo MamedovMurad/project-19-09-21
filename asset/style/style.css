@@ -1,0 +1,39 @@
+header .navbar{
+    height: 70px;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
+}
+
+header .banner>img{
+    width: 100%;
+    object-fit: cover;
+}
+main{
+    padding-top: 20px;
+}
+
+#carouselExampleIndicators .carousel-item.active{
+    opacity: .5;
+    animation: slider 5s infinite;
+}
+
+
+@keyframes slider {
+    0%   {opacity: 1}
+    100% {opacity: .9}
+  }
+  .bottom_slider{
+      margin-top: 30px;
+  }
+  .bottom_slider a{
+      text-decoration: none;
+  }
+  .faydali_link{
+      margin-top:35px;
+  }
+  .faydali_link>.slider>.slider__wrapper{
+      text-align: center;
+  }
+
+  .faydali_link>.slider>.slider__wrapper>.slider__item>img{
+      height: 140px;
+  }
