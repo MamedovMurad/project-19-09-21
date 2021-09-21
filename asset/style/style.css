@@ -37,3 +37,10 @@ main{
   .faydali_link>.slider>.slider__wrapper>.slider__item>img{
       height: 140px;
   }
+
+  .card__photo{
+      width: 210px;
+      height: 170px;
+      border: 1px solid #ccc;
+
+  }
